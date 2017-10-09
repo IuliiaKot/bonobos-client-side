@@ -23,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h2>List of products</h2>
         <ProductsList products={this.state.products} />
       </div>
     );
