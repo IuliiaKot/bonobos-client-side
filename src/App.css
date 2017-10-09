@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.product-card {
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid #356789;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+img {
+    width: 300px;
+    height: 360px;
+}
+
+.info {
+  margin-top: 10px;
+
+}
+
+.info .left {
+  float: left;
+  width: 30%;
+}
+
+.info .left img {
+   /*width: 30%;*/
+  margin-right: 10px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.inventories {
+  width: 70%;
+  float: right;
+   /*float: right;
+   margin-left: 15px;*/
+   background: #F5F5F5;
+}
+
+.inventories .column-0 {
+  width: 30%;
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 12px;
+}
+.inventories .column-1 {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.inventories .column-2 {
+  width: 30%;
+  float: right;
+  margin-bottom: 15px;
+  margin-right: 7px;
+}
+
+.inventory-title {
+  font-size: 12px;
+}
+
+.size {
+  font-weight: 800px;
+  font-size: 16px;
+}
+
+.style {
+  float: left;
+}
+
+.count {
+  float: right;
+}
+
+h5 {
+  font-size: 18px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+a {
+  color: #10799A;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  float: right;
+}
